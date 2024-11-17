@@ -1,0 +1,8 @@
+- This code performs sentiment analysis on movie reviews using a Naive Bayes model.
+- The reviews dataset is imported from the nltk library and split into training and testing data.
+- The textual reviews are transformed into numerical representations using CountVectorizer.
+- The model is trained on the training data to classify reviews as positive or negative based on the words present.
+- After training, the model's accuracy is evaluated on the test set.
+- Additionally, the code allows testing the model with new reviews to analyze their sentiment.
+- Libraries such as pandas and sklearn are used for data handling and modeling.
+- The model is simple, fast, and suitable for analyzing short text data.
